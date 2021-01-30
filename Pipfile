@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 sanic = "*"
+requests = "*"
 
 [dev-packages]
 autopep8 = "*"
