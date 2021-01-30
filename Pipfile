@@ -1,0 +1,14 @@
+[[source]]
+url = "https://mirrors.aliyun.com/pypi/simple/"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+sanic = "*"
+
+[dev-packages]
+autopep8 = "*"
+pycodestyle = "*"
+
+[requires]
+python_version = "3.6"
