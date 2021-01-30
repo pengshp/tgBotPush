@@ -3,10 +3,10 @@ from sanic.response import text
 from sanic.log import logger
 
 import requests
-
+import os
 app = Sanic(__name__, load_env='APP_')
 
-# TOKEN = os.getenv("TOKEN")
+TOKEN = os.getenv("TOKEN")
 URL = f'https://api.telegram.org/bot{TOKEN}/'
 kv = {"User-Agent": "Mozilla/5.0"}
 
